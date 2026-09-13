@@ -1,0 +1,27 @@
+{
+  "event_id": "kerala_flood_2018",
+  "region_id": "kerala",
+  "state": "Kerala",
+  "step": "EVENT_PEAK",
+  "date": "2018-08-16",
+  "lead_time_days": 0,
+  "description": "Peak Catastrophic Inundation",
+  "satellite_observation_time": "2018-08-16T05:25:00Z",
+  "prediction_time": "2018-08-16T06:45:00Z",
+  "mean_risk": 30.16,
+  "high_risk_cells": 1543,
+  "critical_risk_cells": 1464,
+  "geotiff_path": "/api/rasters/kerala_flood_2018_2018-08-16.tif",
+  "raster_png_url": "/api/rasters/kerala_flood_2018_2018-08-16.png",
+  "observed_png_url": "/api/rasters/observed_kerala_flood_2018.png",
+  "bounds": [
+    [
+      8.1,
+      74.8
+    ],
+    [
+      12.8,
+      77.6
+    ]
+  ]
+}

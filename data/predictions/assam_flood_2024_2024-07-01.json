@@ -1,0 +1,27 @@
+{
+  "event_id": "assam_flood_2024",
+  "region_id": "assam",
+  "state": "Assam",
+  "step": "T-2",
+  "date": "2024-07-01",
+  "lead_time_days": 2,
+  "description": "2 Days Prior to Peak (Widespread tributary inundation)",
+  "satellite_observation_time": "2024-07-01T04:50:21Z",
+  "prediction_time": "2024-07-01T06:00:00Z",
+  "mean_risk": 28.72,
+  "high_risk_cells": 1753,
+  "critical_risk_cells": 1521,
+  "geotiff_path": "/api/rasters/assam_flood_2024_2024-07-01.tif",
+  "raster_png_url": "/api/rasters/assam_flood_2024_2024-07-01.png",
+  "observed_png_url": "/api/rasters/observed_assam_flood_2024.png",
+  "bounds": [
+    [
+      24.0,
+      89.6
+    ],
+    [
+      28.2,
+      96.0
+    ]
+  ]
+}

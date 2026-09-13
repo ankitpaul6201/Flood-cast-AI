@@ -1,0 +1,27 @@
+{
+  "event_id": "bihar_flood_2020",
+  "region_id": "bihar",
+  "state": "Bihar",
+  "step": "T-7",
+  "date": "2020-07-21",
+  "lead_time_days": 7,
+  "description": "7 Days Prior (Upstream Himalayan catchment torrents)",
+  "satellite_observation_time": "2020-07-21T05:10:14Z",
+  "prediction_time": "2020-07-21T06:30:00Z",
+  "mean_risk": 31.0,
+  "high_risk_cells": 3310,
+  "critical_risk_cells": 3086,
+  "geotiff_path": "/api/rasters/bihar_flood_2020_2020-07-21.tif",
+  "raster_png_url": "/api/rasters/bihar_flood_2020_2020-07-21.png",
+  "observed_png_url": "/api/rasters/observed_bihar_flood_2020.png",
+  "bounds": [
+    [
+      24.3,
+      83.3
+    ],
+    [
+      27.6,
+      88.3
+    ]
+  ]
+}

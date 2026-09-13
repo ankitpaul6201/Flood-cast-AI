@@ -1,0 +1,27 @@
+{
+  "event_id": "kerala_flood_2018",
+  "region_id": "kerala",
+  "state": "Kerala",
+  "step": "T-3",
+  "date": "2018-08-13",
+  "lead_time_days": 3,
+  "description": "3 Days Prior (Intensifying catchment rainfall & river swell)",
+  "satellite_observation_time": "2018-08-13T05:24:30Z",
+  "prediction_time": "2018-08-13T06:45:00Z",
+  "mean_risk": 30.92,
+  "high_risk_cells": 1579,
+  "critical_risk_cells": 1504,
+  "geotiff_path": "/api/rasters/kerala_flood_2018_2018-08-13.tif",
+  "raster_png_url": "/api/rasters/kerala_flood_2018_2018-08-13.png",
+  "observed_png_url": "/api/rasters/observed_kerala_flood_2018.png",
+  "bounds": [
+    [
+      8.1,
+      74.8
+    ],
+    [
+      12.8,
+      77.6
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "event_id": "bihar_flood_2020",
+  "region_id": "bihar",
+  "state": "Bihar",
+  "step": "T-1",
+  "date": "2020-07-27",
+  "lead_time_days": 1,
+  "description": "1 Day Prior (Severe Gangetic plain inundation)",
+  "satellite_observation_time": "2020-07-27T05:11:20Z",
+  "prediction_time": "2020-07-27T06:30:00Z",
+  "mean_risk": 27.22,
+  "high_risk_cells": 3265,
+  "critical_risk_cells": 3050,
+  "geotiff_path": "/api/rasters/bihar_flood_2020_2020-07-27.tif",
+  "raster_png_url": "/api/rasters/bihar_flood_2020_2020-07-27.png",
+  "observed_png_url": "/api/rasters/observed_bihar_flood_2020.png",
+  "bounds": [
+    [
+      24.3,
+      83.3
+    ],
+    [
+      27.6,
+      88.3
+    ]
+  ]
+}

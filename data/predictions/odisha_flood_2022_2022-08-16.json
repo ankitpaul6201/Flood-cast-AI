@@ -1,0 +1,27 @@
+{
+  "event_id": "odisha_flood_2022",
+  "region_id": "odisha",
+  "state": "Odisha",
+  "step": "T-4",
+  "date": "2022-08-16",
+  "lead_time_days": 4,
+  "description": "4 Days Prior (Upper Mahanadi basin heavy runoff)",
+  "satellite_observation_time": "2022-08-16T05:02:40Z",
+  "prediction_time": "2022-08-16T06:15:00Z",
+  "mean_risk": 11.01,
+  "high_risk_cells": 907,
+  "critical_risk_cells": 860,
+  "geotiff_path": "/api/rasters/odisha_flood_2022_2022-08-16.tif",
+  "raster_png_url": "/api/rasters/odisha_flood_2022_2022-08-16.png",
+  "observed_png_url": "/api/rasters/observed_odisha_flood_2022.png",
+  "bounds": [
+    [
+      17.8,
+      81.3
+    ],
+    [
+      22.6,
+      87.5
+    ]
+  ]
+}

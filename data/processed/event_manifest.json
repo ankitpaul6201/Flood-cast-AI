@@ -1,0 +1,328 @@
+{
+  "events": [
+    {
+      "id": "assam_flood_2024",
+      "name": "Assam Monsoon Flood 2024",
+      "state": "Assam",
+      "region_id": "assam",
+      "region": "Assam, India (Brahmaputra & Barak Basins)",
+      "impacted_districts": [
+        "Barpeta", "Dhubri", "Kamrup", "Morigaon", "Nagaon", "Darrang", "Golaghat", "Dhemaji", "Cachar"
+      ],
+      "start_date": "2024-06-25",
+      "peak_date": "2024-07-03",
+      "end_date": "2024-07-15",
+      "observed_source": "Copernicus Emergency Management Service / Sentinel-2 Post-event Water Extent",
+      "prediction_timeline": [
+        {
+          "step": "T-7",
+          "date": "2024-06-26",
+          "description": "7 Days Prior to Peak (Pre-surge onset)",
+          "satellite_observation_time": "2024-06-26T04:48:12Z",
+          "prediction_time": "2024-06-26T06:00:00Z",
+          "lead_time_days": 7
+        },
+        {
+          "step": "T-5",
+          "date": "2024-06-28",
+          "description": "5 Days Prior to Peak (Heavy precipitation buildup)",
+          "satellite_observation_time": "2024-06-28T04:52:09Z",
+          "prediction_time": "2024-06-28T06:00:00Z",
+          "lead_time_days": 5
+        },
+        {
+          "step": "T-3",
+          "date": "2024-06-30",
+          "description": "3 Days Prior to Peak (Elevated soil moisture & river discharge)",
+          "satellite_observation_time": "2024-06-30T04:47:33Z",
+          "prediction_time": "2024-06-30T06:00:00Z",
+          "lead_time_days": 3
+        },
+        {
+          "step": "T-2",
+          "date": "2024-07-01",
+          "description": "2 Days Prior to Peak (Widespread tributary inundation)",
+          "satellite_observation_time": "2024-07-01T04:50:21Z",
+          "prediction_time": "2024-07-01T06:00:00Z",
+          "lead_time_days": 2
+        },
+        {
+          "step": "T-1",
+          "date": "2024-07-02",
+          "description": "1 Day Prior to Peak (Critical basin surge)",
+          "satellite_observation_time": "2024-07-02T04:49:15Z",
+          "prediction_time": "2024-07-02T06:00:00Z",
+          "lead_time_days": 1
+        },
+        {
+          "step": "EVENT_PEAK",
+          "date": "2024-07-03",
+          "description": "Historical Peak Inundation Extent",
+          "satellite_observation_time": "2024-07-03T04:51:00Z",
+          "prediction_time": "2024-07-03T06:00:00Z",
+          "lead_time_days": 0
+        }
+      ],
+      "validation_status": "VALIDATED",
+      "summary": "Severe monsoon flooding in June-July 2024 inundated millions across Assam's Brahmaputra floodplains following continuous heavy upstream catchment rainfall."
+    },
+    {
+      "id": "bihar_flood_2020",
+      "name": "Bihar Gangetic & Kosi Surge 2020",
+      "state": "Bihar",
+      "region_id": "bihar",
+      "region": "Bihar, India (Kosi, Gandak & Ganga Basins)",
+      "impacted_districts": [
+        "Darbhanga", "Muzaffarpur", "Gopalganj", "East Champaran", "Supaul", "Khagaria", "Samastipur"
+      ],
+      "start_date": "2020-07-18",
+      "peak_date": "2020-07-28",
+      "end_date": "2020-08-10",
+      "observed_source": "ISRO Bhuvan / Sentinel-2 Water Delineation",
+      "prediction_timeline": [
+        {
+          "step": "T-7",
+          "date": "2020-07-21",
+          "description": "7 Days Prior (Upstream Himalayan catchment torrents)",
+          "satellite_observation_time": "2020-07-21T05:10:14Z",
+          "prediction_time": "2020-07-21T06:30:00Z",
+          "lead_time_days": 7
+        },
+        {
+          "step": "T-5",
+          "date": "2020-07-23",
+          "description": "5 Days Prior (Kosi barrage heavy discharge alert)",
+          "satellite_observation_time": "2020-07-23T05:12:00Z",
+          "prediction_time": "2020-07-23T06:30:00Z",
+          "lead_time_days": 5
+        },
+        {
+          "step": "T-3",
+          "date": "2020-07-25",
+          "description": "3 Days Prior (Embankment stress & low-lying overflow)",
+          "satellite_observation_time": "2020-07-25T05:08:45Z",
+          "prediction_time": "2020-07-25T06:30:00Z",
+          "lead_time_days": 3
+        },
+        {
+          "step": "T-1",
+          "date": "2020-07-27",
+          "description": "1 Day Prior (Severe Gangetic plain inundation)",
+          "satellite_observation_time": "2020-07-27T05:11:20Z",
+          "prediction_time": "2020-07-27T06:30:00Z",
+          "lead_time_days": 1
+        },
+        {
+          "step": "EVENT_PEAK",
+          "date": "2020-07-28",
+          "description": "Peak Historical Inundation Extent",
+          "satellite_observation_time": "2020-07-28T05:14:00Z",
+          "prediction_time": "2020-07-28T06:30:00Z",
+          "lead_time_days": 0
+        }
+      ],
+      "validation_status": "VALIDATED",
+      "summary": "Historic 2020 North Bihar floods triggered by extreme rainfall in Nepal catchment area and subsequent high discharge in Kosi, Gandak, and Bagmati rivers."
+    },
+    {
+      "id": "kerala_flood_2018",
+      "name": "Kerala Extreme Monsoon Floods 2018",
+      "state": "Kerala",
+      "region_id": "kerala",
+      "region": "Kerala, India (Periyar & Pamba Coastal Basins)",
+      "impacted_districts": [
+        "Ernakulam", "Idukki", "Thrissur", "Alappuzha", "Wayanad", "Pathanamthitta"
+      ],
+      "start_date": "2018-08-08",
+      "peak_date": "2018-08-16",
+      "end_date": "2018-08-22",
+      "observed_source": "Copernicus Emergency Management Service / Sentinel-1 & Sentinel-2",
+      "prediction_timeline": [
+        {
+          "step": "T-7",
+          "date": "2018-08-09",
+          "description": "7 Days Prior (Monsoon depression surge over Western Ghats)",
+          "satellite_observation_time": "2018-08-09T05:22:10Z",
+          "prediction_time": "2018-08-09T06:45:00Z",
+          "lead_time_days": 7
+        },
+        {
+          "step": "T-5",
+          "date": "2018-08-11",
+          "description": "5 Days Prior (Dam reservoir saturation across high ranges)",
+          "satellite_observation_time": "2018-08-11T05:20:00Z",
+          "prediction_time": "2018-08-11T06:45:00Z",
+          "lead_time_days": 5
+        },
+        {
+          "step": "T-3",
+          "date": "2018-08-13",
+          "description": "3 Days Prior (Intensifying catchment rainfall & river swell)",
+          "satellite_observation_time": "2018-08-13T05:24:30Z",
+          "prediction_time": "2018-08-13T06:45:00Z",
+          "lead_time_days": 3
+        },
+        {
+          "step": "T-1",
+          "date": "2018-08-15",
+          "description": "1 Day Prior (Unprecedented multi-dam spillway discharge)",
+          "satellite_observation_time": "2018-08-15T05:21:40Z",
+          "prediction_time": "2018-08-15T06:45:00Z",
+          "lead_time_days": 1
+        },
+        {
+          "step": "EVENT_PEAK",
+          "date": "2018-08-16",
+          "description": "Peak Catastrophic Inundation",
+          "satellite_observation_time": "2018-08-16T05:25:00Z",
+          "prediction_time": "2018-08-16T06:45:00Z",
+          "lead_time_days": 0
+        }
+      ],
+      "validation_status": "VALIDATED",
+      "summary": "The worst floods in Kerala in nearly a century, resulting from continuous extreme precipitation over the Western Ghats saturating all major dams and inundating coastal plains."
+    },
+    {
+      "id": "odisha_flood_2022",
+      "name": "Odisha Mahanadi Basin Deluge 2022",
+      "state": "Odisha",
+      "region_id": "odisha",
+      "region": "Odisha, India (Mahanadi & Baitarani Delta)",
+      "impacted_districts": [
+        "Puri", "Khurda", "Cuttack", "Jagatsinghpur", "Kendrapara", "Bhadrak"
+      ],
+      "start_date": "2022-08-14",
+      "peak_date": "2022-08-20",
+      "end_date": "2022-08-28",
+      "observed_source": "Sentinel-2 & Flood Inundation Atlas",
+      "prediction_timeline": [
+        {
+          "step": "T-6",
+          "date": "2022-08-14",
+          "description": "6 Days Prior (Deep Bay of Bengal depression onset)",
+          "satellite_observation_time": "2022-08-14T05:00:15Z",
+          "prediction_time": "2022-08-14T06:15:00Z",
+          "lead_time_days": 6
+        },
+        {
+          "step": "T-4",
+          "date": "2022-08-16",
+          "description": "4 Days Prior (Upper Mahanadi basin heavy runoff)",
+          "satellite_observation_time": "2022-08-16T05:02:40Z",
+          "prediction_time": "2022-08-16T06:15:00Z",
+          "lead_time_days": 4
+        },
+        {
+          "step": "T-2",
+          "date": "2022-08-18",
+          "description": "2 Days Prior (Hirakud dam release & delta swelling)",
+          "satellite_observation_time": "2022-08-18T04:59:30Z",
+          "prediction_time": "2022-08-18T06:15:00Z",
+          "lead_time_days": 2
+        },
+        {
+          "step": "EVENT_PEAK",
+          "date": "2022-08-20",
+          "description": "Peak Delta Inundation",
+          "satellite_observation_time": "2022-08-20T05:03:00Z",
+          "prediction_time": "2022-08-20T06:15:00Z",
+          "lead_time_days": 0
+        }
+      ],
+      "validation_status": "VALIDATED",
+      "summary": "Severe deltaic flooding across coastal Odisha following back-to-back depressions over the Bay of Bengal causing massive discharge in the Mahanadi river network."
+    },
+    {
+      "id": "maharashtra_flood_2021",
+      "name": "Maharashtra Krishna & Konkan Floods 2021",
+      "state": "Maharashtra",
+      "region_id": "maharashtra",
+      "region": "Maharashtra, India (Krishna & Konkan River Basins)",
+      "impacted_districts": [
+        "Kolhapur", "Sangli", "Satara", "Ratnagiri", "Raigad"
+      ],
+      "start_date": "2021-07-20",
+      "peak_date": "2021-07-24",
+      "end_date": "2021-07-30",
+      "observed_source": "Copernicus EMS / Sentinel-2 Surface Water Extent",
+      "prediction_timeline": [
+        {
+          "step": "T-4",
+          "date": "2021-07-20",
+          "description": "4 Days Prior (Cloudburst in Mahabaleshwar & Koyna catchment)",
+          "satellite_observation_time": "2021-07-20T05:30:10Z",
+          "prediction_time": "2021-07-20T06:45:00Z",
+          "lead_time_days": 4
+        },
+        {
+          "step": "T-2",
+          "date": "2021-07-22",
+          "description": "2 Days Prior (Severe Panchganga & Vashishti river surge)",
+          "satellite_observation_time": "2021-07-22T05:28:40Z",
+          "prediction_time": "2021-07-22T06:45:00Z",
+          "lead_time_days": 2
+        },
+        {
+          "step": "EVENT_PEAK",
+          "date": "2021-07-24",
+          "description": "Peak Historical Flood Extent (Kolhapur & Chiplun)",
+          "satellite_observation_time": "2021-07-24T05:32:00Z",
+          "prediction_time": "2021-07-24T06:45:00Z",
+          "lead_time_days": 0
+        }
+      ],
+      "validation_status": "VALIDATED",
+      "summary": "Historic July 2021 downpours in Western Ghats caused unprecedented flooding in Chiplun, Mahad, Kolhapur, and Sangli."
+    },
+    {
+      "id": "assam_flood_2022",
+      "name": "Assam Flood Surge 2022",
+      "state": "Assam",
+      "region_id": "assam",
+      "region": "Assam, India (Barak & Central Brahmaputra)",
+      "impacted_districts": [
+        "Cachar", "Hailakandi", "Karimganj", "Barpeta", "Nagaon", "Kamrup"
+      ],
+      "start_date": "2022-06-10",
+      "peak_date": "2022-06-19",
+      "end_date": "2022-06-28",
+      "observed_source": "Sentinel-2 & Flood Inundation Atlas",
+      "prediction_timeline": [
+        {
+          "step": "T-7",
+          "date": "2022-06-12",
+          "description": "7 Days Prior to Peak",
+          "satellite_observation_time": "2022-06-12T04:46:10Z",
+          "prediction_time": "2022-06-12T06:00:00Z",
+          "lead_time_days": 7
+        },
+        {
+          "step": "T-3",
+          "date": "2022-06-16",
+          "description": "3 Days Prior to Peak",
+          "satellite_observation_time": "2022-06-16T04:50:00Z",
+          "prediction_time": "2022-06-16T06:00:00Z",
+          "lead_time_days": 3
+        },
+        {
+          "step": "T-1",
+          "date": "2022-06-18",
+          "description": "1 Day Prior to Peak",
+          "satellite_observation_time": "2022-06-18T04:48:30Z",
+          "prediction_time": "2022-06-18T06:00:00Z",
+          "lead_time_days": 1
+        },
+        {
+          "step": "EVENT_PEAK",
+          "date": "2022-06-19",
+          "description": "Peak Inundation (Silchar breach & Brahmaputra surge)",
+          "satellite_observation_time": "2022-06-19T04:52:15Z",
+          "prediction_time": "2022-06-19T06:00:00Z",
+          "lead_time_days": 0
+        }
+      ],
+      "validation_status": "VALIDATED",
+      "summary": "Historic flooding causing extreme inundation in Barak Valley (Silchar) and central Assam districts."
+    }
+  ]
+}

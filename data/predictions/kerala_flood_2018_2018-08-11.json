@@ -1,0 +1,27 @@
+{
+  "event_id": "kerala_flood_2018",
+  "region_id": "kerala",
+  "state": "Kerala",
+  "step": "T-5",
+  "date": "2018-08-11",
+  "lead_time_days": 5,
+  "description": "5 Days Prior (Dam reservoir saturation across high ranges)",
+  "satellite_observation_time": "2018-08-11T05:20:00Z",
+  "prediction_time": "2018-08-11T06:45:00Z",
+  "mean_risk": 29.24,
+  "high_risk_cells": 1524,
+  "critical_risk_cells": 1462,
+  "geotiff_path": "/api/rasters/kerala_flood_2018_2018-08-11.tif",
+  "raster_png_url": "/api/rasters/kerala_flood_2018_2018-08-11.png",
+  "observed_png_url": "/api/rasters/observed_kerala_flood_2018.png",
+  "bounds": [
+    [
+      8.1,
+      74.8
+    ],
+    [
+      12.8,
+      77.6
+    ]
+  ]
+}

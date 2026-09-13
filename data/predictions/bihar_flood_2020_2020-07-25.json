@@ -1,0 +1,27 @@
+{
+  "event_id": "bihar_flood_2020",
+  "region_id": "bihar",
+  "state": "Bihar",
+  "step": "T-3",
+  "date": "2020-07-25",
+  "lead_time_days": 3,
+  "description": "3 Days Prior (Embankment stress & low-lying overflow)",
+  "satellite_observation_time": "2020-07-25T05:08:45Z",
+  "prediction_time": "2020-07-25T06:30:00Z",
+  "mean_risk": 27.56,
+  "high_risk_cells": 3305,
+  "critical_risk_cells": 3052,
+  "geotiff_path": "/api/rasters/bihar_flood_2020_2020-07-25.tif",
+  "raster_png_url": "/api/rasters/bihar_flood_2020_2020-07-25.png",
+  "observed_png_url": "/api/rasters/observed_bihar_flood_2020.png",
+  "bounds": [
+    [
+      24.3,
+      83.3
+    ],
+    [
+      27.6,
+      88.3
+    ]
+  ]
+}

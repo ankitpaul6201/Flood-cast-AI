@@ -1,0 +1,27 @@
+{
+  "event_id": "maharashtra_flood_2021",
+  "region_id": "maharashtra",
+  "state": "Maharashtra",
+  "step": "T-4",
+  "date": "2021-07-20",
+  "lead_time_days": 4,
+  "description": "4 Days Prior (Cloudburst in Mahabaleshwar & Koyna catchment)",
+  "satellite_observation_time": "2021-07-20T05:30:10Z",
+  "prediction_time": "2021-07-20T06:45:00Z",
+  "mean_risk": 2.09,
+  "high_risk_cells": 225,
+  "critical_risk_cells": 209,
+  "geotiff_path": "/api/rasters/maharashtra_flood_2021_2021-07-20.tif",
+  "raster_png_url": "/api/rasters/maharashtra_flood_2021_2021-07-20.png",
+  "observed_png_url": "/api/rasters/observed_maharashtra_flood_2021.png",
+  "bounds": [
+    [
+      15.6,
+      72.6
+    ],
+    [
+      22.0,
+      80.9
+    ]
+  ]
+}

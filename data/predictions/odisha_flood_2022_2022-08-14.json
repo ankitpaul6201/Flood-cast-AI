@@ -1,0 +1,27 @@
+{
+  "event_id": "odisha_flood_2022",
+  "region_id": "odisha",
+  "state": "Odisha",
+  "step": "T-6",
+  "date": "2022-08-14",
+  "lead_time_days": 6,
+  "description": "6 Days Prior (Deep Bay of Bengal depression onset)",
+  "satellite_observation_time": "2022-08-14T05:00:15Z",
+  "prediction_time": "2022-08-14T06:15:00Z",
+  "mean_risk": 13.08,
+  "high_risk_cells": 905,
+  "critical_risk_cells": 844,
+  "geotiff_path": "/api/rasters/odisha_flood_2022_2022-08-14.tif",
+  "raster_png_url": "/api/rasters/odisha_flood_2022_2022-08-14.png",
+  "observed_png_url": "/api/rasters/observed_odisha_flood_2022.png",
+  "bounds": [
+    [
+      17.8,
+      81.3
+    ],
+    [
+      22.6,
+      87.5
+    ]
+  ]
+}

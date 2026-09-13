@@ -1,0 +1,27 @@
+{
+  "event_id": "kerala_flood_2018",
+  "region_id": "kerala",
+  "state": "Kerala",
+  "step": "T-1",
+  "date": "2018-08-15",
+  "lead_time_days": 1,
+  "description": "1 Day Prior (Unprecedented multi-dam spillway discharge)",
+  "satellite_observation_time": "2018-08-15T05:21:40Z",
+  "prediction_time": "2018-08-15T06:45:00Z",
+  "mean_risk": 30.58,
+  "high_risk_cells": 1586,
+  "critical_risk_cells": 1471,
+  "geotiff_path": "/api/rasters/kerala_flood_2018_2018-08-15.tif",
+  "raster_png_url": "/api/rasters/kerala_flood_2018_2018-08-15.png",
+  "observed_png_url": "/api/rasters/observed_kerala_flood_2018.png",
+  "bounds": [
+    [
+      8.1,
+      74.8
+    ],
+    [
+      12.8,
+      77.6
+    ]
+  ]
+}

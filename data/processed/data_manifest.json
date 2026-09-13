@@ -1,0 +1,89 @@
+{
+  "project": "FloodCast AI",
+  "hazard": "Flood",
+  "study_region": {
+    "name": "Assam, India",
+    "country": "India",
+    "iso3": "IND",
+    "state_code": "AS",
+    "bounding_box": {
+      "min_longitude": 89.6,
+      "max_longitude": 96.0,
+      "min_latitude": 24.0,
+      "max_latitude": 28.2
+    },
+    "crs": "EPSG:4326",
+    "projected_crs": "EPSG:32646",
+    "analysis_resolution_meters": 100
+  },
+  "datasets": [
+    {
+      "id": "sentinel2_sr",
+      "name": "Sentinel-2 Level-2A Surface Reflectance Harmonized",
+      "provider": "European Space Agency (ESA) / Copernicus",
+      "gee_collection": "COPERNICUS/S2_SR_HARMONIZED",
+      "native_resolution_m": 10,
+      "analysis_resolution_m": 100,
+      "revisit_time_days": 5,
+      "bands": [
+        {"name": "B3", "description": "Green (560 nm)", "native_res": 10},
+        {"name": "B4", "description": "Red (665 nm)", "native_res": 10},
+        {"name": "B8", "description": "Near Infrared (842 nm)", "native_res": 10},
+        {"name": "B11", "description": "Short-wave Infrared (1610 nm)", "native_res": 20}
+      ],
+      "derived_indices": [
+        {
+          "name": "NDWI",
+          "formula": "(B3 - B8) / (B3 + B8)",
+          "description": "Normalized Difference Water Index (McFeeters, 1996)"
+        }
+      ],
+      "quality_filtering": "QA60 cloud/cirrus mask & SCL cloud probability < 20%"
+    },
+    {
+      "id": "chirps_rainfall",
+      "name": "Climate Hazards Group InfraRed Precipitation with Station data (CHIRPS)",
+      "provider": "UCSB Climate Hazards Center",
+      "gee_collection": "UCSB-CHG/CHIRPS/DAILY",
+      "native_resolution_deg": 0.05,
+      "analysis_resolution_m": 100,
+      "features": [
+        {"name": "rain_1d", "description": "1-day total precipitation (mm)"},
+        {"name": "rain_3d", "description": "3-day cumulative precipitation (mm)"},
+        {"name": "rain_7d", "description": "7-day cumulative precipitation (mm)"}
+      ],
+      "temporal_safety": "Only rainfall recorded at or prior to prediction timestamp t is utilized"
+    },
+    {
+      "id": "srtm_dem",
+      "name": "NASA Shuttle Radar Topography Mission (SRTM) Global 1 arc second",
+      "provider": "NASA / USGS",
+      "gee_collection": "USGS/SRTMGL1_003",
+      "native_resolution_m": 30,
+      "analysis_resolution_m": 100,
+      "features": [
+        {"name": "elevation", "unit": "meters above sea level"},
+        {"name": "slope", "unit": "degrees"}
+      ],
+      "type": "static"
+    }
+  ],
+  "feature_schema": [
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "NDWI",
+    "rain_1d",
+    "rain_3d",
+    "rain_7d",
+    "elevation",
+    "slope"
+  ],
+  "label_definition": {
+    "target": "flood_extent_future",
+    "description": "Binary indicator (0=No Flood, 1=Flood Extent) observed within target horizon t+1 to t+H",
+    "horizon_hours": 72,
+    "leakage_prevention": "Strict temporal separation between feature availability window (<= t) and target observation window (> t)"
+  }
+}

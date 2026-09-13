@@ -1,0 +1,27 @@
+{
+  "event_id": "maharashtra_flood_2021",
+  "region_id": "maharashtra",
+  "state": "Maharashtra",
+  "step": "T-2",
+  "date": "2021-07-22",
+  "lead_time_days": 2,
+  "description": "2 Days Prior (Severe Panchganga & Vashishti river surge)",
+  "satellite_observation_time": "2021-07-22T05:28:40Z",
+  "prediction_time": "2021-07-22T06:45:00Z",
+  "mean_risk": 2.03,
+  "high_risk_cells": 228,
+  "critical_risk_cells": 208,
+  "geotiff_path": "/api/rasters/maharashtra_flood_2021_2021-07-22.tif",
+  "raster_png_url": "/api/rasters/maharashtra_flood_2021_2021-07-22.png",
+  "observed_png_url": "/api/rasters/observed_maharashtra_flood_2021.png",
+  "bounds": [
+    [
+      15.6,
+      72.6
+    ],
+    [
+      22.0,
+      80.9
+    ]
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "model_name": "FloodCast-India-RandomForest-Baseline",
+  "version": "1.0.0",
+  "geographic_scope": "India-Wide (Calibrated across Brahmaputra, Gangetic, Western Ghats, Mahanadi, and Konkan Basins)",
+  "algorithm": "RandomForestClassifier",
+  "hyperparameters": {
+    "n_estimators": 120,
+    "max_depth": 12,
+    "min_samples_split": 4,
+    "min_samples_leaf": 2,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "feature_schema": [
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "NDWI",
+    "rain_1d",
+    "rain_3d",
+    "rain_7d",
+    "elevation",
+    "slope"
+  ],
+  "feature_importances": {
+    "slope": 0.316,
+    "elevation": 0.2815,
+    "B11": 0.1003,
+    "B8": 0.0952,
+    "NDWI": 0.0682,
+    "rain_7d": 0.0351,
+    "B3": 0.0327,
+    "rain_3d": 0.0298,
+    "rain_1d": 0.0265,
+    "B4": 0.0148
+  },
+  "temporal_split_strategy": "Multi-Region Temporal Holdout (Train: <=2022 across Kerala/Bihar/Maharashtra/Assam, Val: Odisha 2022, Test: Assam 2024)",
+  "train_samples": 6800,
+  "validation_metrics": {
+    "roc_auc": 0.9999,
+    "pr_auc": 0.9988,
+    "precision": 0.9691,
+    "recall": 0.9752,
+    "f1_score": 0.9721,
+    "accuracy": 0.9944,
+    "brier_score": 0.0053,
+    "sample_count": 1600
+  },
+  "test_holdout_metrics_2024": {
+    "roc_auc": 0.9965,
+    "pr_auc": 0.9931,
+    "precision": 0.9848,
+    "recall": 0.8806,
+    "f1_score": 0.9298,
+    "accuracy": 0.9592,
+    "brier_score": 0.0283,
+    "sample_count": 2400
+  },
+  "risk_scale_mapping": {
+    "0-19": "LOW",
+    "20-49": "MODERATE",
+    "50-74": "HIGH",
+    "75-100": "CRITICAL"
+  },
+  "scientific_disclaimer": "Scores represent uncalibrated empirical model risk scores (0-100). Predictions require historical validation."
+}

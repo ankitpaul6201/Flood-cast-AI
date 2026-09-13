@@ -1,0 +1,27 @@
+{
+  "event_id": "assam_flood_2022",
+  "region_id": "assam",
+  "state": "Assam",
+  "step": "T-3",
+  "date": "2022-06-16",
+  "lead_time_days": 3,
+  "description": "3 Days Prior to Peak",
+  "satellite_observation_time": "2022-06-16T04:50:00Z",
+  "prediction_time": "2022-06-16T06:00:00Z",
+  "mean_risk": 28.91,
+  "high_risk_cells": 1746,
+  "critical_risk_cells": 1494,
+  "geotiff_path": "/api/rasters/assam_flood_2022_2022-06-16.tif",
+  "raster_png_url": "/api/rasters/assam_flood_2022_2022-06-16.png",
+  "observed_png_url": "/api/rasters/observed_assam_flood_2022.png",
+  "bounds": [
+    [
+      24.0,
+      89.6
+    ],
+    [
+      28.2,
+      96.0
+    ]
+  ]
+}

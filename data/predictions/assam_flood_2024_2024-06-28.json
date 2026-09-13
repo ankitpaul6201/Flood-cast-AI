@@ -1,0 +1,27 @@
+{
+  "event_id": "assam_flood_2024",
+  "region_id": "assam",
+  "state": "Assam",
+  "step": "T-5",
+  "date": "2024-06-28",
+  "lead_time_days": 5,
+  "description": "5 Days Prior to Peak (Heavy precipitation buildup)",
+  "satellite_observation_time": "2024-06-28T04:52:09Z",
+  "prediction_time": "2024-06-28T06:00:00Z",
+  "mean_risk": 20.86,
+  "high_risk_cells": 1297,
+  "critical_risk_cells": 873,
+  "geotiff_path": "/api/rasters/assam_flood_2024_2024-06-28.tif",
+  "raster_png_url": "/api/rasters/assam_flood_2024_2024-06-28.png",
+  "observed_png_url": "/api/rasters/observed_assam_flood_2024.png",
+  "bounds": [
+    [
+      24.0,
+      89.6
+    ],
+    [
+      28.2,
+      96.0
+    ]
+  ]
+}

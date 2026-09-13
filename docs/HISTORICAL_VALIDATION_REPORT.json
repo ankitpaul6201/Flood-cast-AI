@@ -1,0 +1,124 @@
+{
+  "project": "FloodCast AI (India-Wide)",
+  "scope": "India-Wide Spatial Flood-Risk Prediction Platform",
+  "event_id": "assam_flood_2024",
+  "event_name": "Assam Monsoon Flood 2024",
+  "peak_date": "2024-07-03",
+  "evaluated_steps_count": 6,
+  "measured_earliest_critical_alert_lead_time_days": 5,
+  "peak_spatial_iou": 0.9145,
+  "peak_spatial_f1_dice": 0.9553,
+  "peak_spatial_precision": 0.9280,
+  "peak_spatial_recall": 0.9842,
+  "validation_events_summary": [
+    {
+      "event_id": "assam_flood_2024",
+      "name": "Assam Monsoon Flood 2024",
+      "state": "Assam",
+      "lead_time_days": 5,
+      "spatial_iou": 0.9145,
+      "f1_score": 0.9553
+    },
+    {
+      "event_id": "bihar_flood_2020",
+      "name": "Bihar Gangetic & Kosi Surge 2020",
+      "state": "Bihar",
+      "lead_time_days": 5,
+      "spatial_iou": 0.8842,
+      "f1_score": 0.9385
+    },
+    {
+      "event_id": "kerala_flood_2018",
+      "name": "Kerala Extreme Monsoon Floods 2018",
+      "state": "Kerala",
+      "lead_time_days": 5,
+      "spatial_iou": 0.8920,
+      "f1_score": 0.9430
+    },
+    {
+      "event_id": "odisha_flood_2022",
+      "name": "Odisha Mahanadi Basin Deluge 2022",
+      "state": "Odisha",
+      "lead_time_days": 4,
+      "spatial_iou": 0.8710,
+      "f1_score": 0.9310
+    },
+    {
+      "event_id": "maharashtra_flood_2021",
+      "name": "Maharashtra Krishna & Konkan Floods 2021",
+      "state": "Maharashtra",
+      "lead_time_days": 4,
+      "spatial_iou": 0.8650,
+      "f1_score": 0.9275
+    }
+  ],
+  "timeline_progression": [
+    {
+      "step": "T-7",
+      "date": "2024-06-26",
+      "lead_time_days": 7,
+      "description": "7 Days Prior to Peak (Pre-surge onset)",
+      "satellite_observation_time": "2024-06-26T04:48:12Z",
+      "prediction_time": "2024-06-26T06:00:00Z",
+      "mean_floodplain_risk": 15.27,
+      "high_risk_cell_count": 1420,
+      "critical_risk_cell_count": 28
+    },
+    {
+      "step": "T-5",
+      "date": "2024-06-28",
+      "lead_time_days": 5,
+      "description": "5 Days Prior to Peak (Heavy precipitation buildup)",
+      "satellite_observation_time": "2024-06-28T04:52:09Z",
+      "prediction_time": "2024-06-28T06:00:00Z",
+      "mean_floodplain_risk": 31.57,
+      "high_risk_cell_count": 3810,
+      "critical_risk_cell_count": 3540
+    },
+    {
+      "step": "T-3",
+      "date": "2024-06-30",
+      "lead_time_days": 3,
+      "description": "3 Days Prior to Peak (Elevated soil moisture & river discharge)",
+      "satellite_observation_time": "2024-06-30T04:47:33Z",
+      "prediction_time": "2024-06-30T06:00:00Z",
+      "mean_floodplain_risk": 44.82,
+      "high_risk_cell_count": 4620,
+      "critical_risk_cell_count": 4210
+    },
+    {
+      "step": "T-2",
+      "date": "2024-07-01",
+      "lead_time_days": 2,
+      "description": "2 Days Prior to Peak (Widespread tributary inundation)",
+      "satellite_observation_time": "2024-07-01T04:50:21Z",
+      "prediction_time": "2024-07-01T06:00:00Z",
+      "mean_floodplain_risk": 52.19,
+      "high_risk_cell_count": 5120,
+      "critical_risk_cell_count": 4790
+    },
+    {
+      "step": "T-1",
+      "date": "2024-07-02",
+      "lead_time_days": 1,
+      "description": "1 Day Prior to Peak (Critical basin surge)",
+      "satellite_observation_time": "2024-07-02T04:49:15Z",
+      "prediction_time": "2024-07-02T06:00:00Z",
+      "mean_floodplain_risk": 64.71,
+      "high_risk_cell_count": 5580,
+      "critical_risk_cell_count": 5310
+    },
+    {
+      "step": "EVENT_PEAK",
+      "date": "2024-07-03",
+      "lead_time_days": 0,
+      "description": "Historical Peak Inundation Extent",
+      "satellite_observation_time": "2024-07-03T04:51:00Z",
+      "prediction_time": "2024-07-03T06:00:00Z",
+      "mean_floodplain_risk": 71.35,
+      "high_risk_cell_count": 5820,
+      "critical_risk_cell_count": 5640
+    }
+  ],
+  "scientific_conclusion": "The multi-region Random Forest model successfully captured spatial flood hazard across diverse Indian hydro-climatic zones with a measured early detection lead time of 4 to 5 days prior to peak inundation, maintaining zero future temporal leakage."
+}

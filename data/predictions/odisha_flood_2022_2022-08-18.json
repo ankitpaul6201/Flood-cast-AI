@@ -1,0 +1,27 @@
+{
+  "event_id": "odisha_flood_2022",
+  "region_id": "odisha",
+  "state": "Odisha",
+  "step": "T-2",
+  "date": "2022-08-18",
+  "lead_time_days": 2,
+  "description": "2 Days Prior (Hirakud dam release & delta swelling)",
+  "satellite_observation_time": "2022-08-18T04:59:30Z",
+  "prediction_time": "2022-08-18T06:15:00Z",
+  "mean_risk": 10.73,
+  "high_risk_cells": 900,
+  "critical_risk_cells": 842,
+  "geotiff_path": "/api/rasters/odisha_flood_2022_2022-08-18.tif",
+  "raster_png_url": "/api/rasters/odisha_flood_2022_2022-08-18.png",
+  "observed_png_url": "/api/rasters/observed_odisha_flood_2022.png",
+  "bounds": [
+    [
+      17.8,
+      81.3
+    ],
+    [
+      22.6,
+      87.5
+    ]
+  ]
+}

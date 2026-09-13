@@ -1,0 +1,27 @@
+{
+  "event_id": "bihar_flood_2020",
+  "region_id": "bihar",
+  "state": "Bihar",
+  "step": "T-5",
+  "date": "2020-07-23",
+  "lead_time_days": 5,
+  "description": "5 Days Prior (Kosi barrage heavy discharge alert)",
+  "satellite_observation_time": "2020-07-23T05:12:00Z",
+  "prediction_time": "2020-07-23T06:30:00Z",
+  "mean_risk": 24.03,
+  "high_risk_cells": 3066,
+  "critical_risk_cells": 2864,
+  "geotiff_path": "/api/rasters/bihar_flood_2020_2020-07-23.tif",
+  "raster_png_url": "/api/rasters/bihar_flood_2020_2020-07-23.png",
+  "observed_png_url": "/api/rasters/observed_bihar_flood_2020.png",
+  "bounds": [
+    [
+      24.3,
+      83.3
+    ],
+    [
+      27.6,
+      88.3
+    ]
+  ]
+}
